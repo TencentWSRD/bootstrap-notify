@@ -1,11 +1,15 @@
 {
-  "name": "bootstrap-notify",
-  "version": "3.1.7",
-  "description": "This is a simple plugin that turns standard Bootstrap alerts into \"Growl-like\" notifications.",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/mouse0270/bootstrap-notify.git"
+  "author": {
+    "email": "rmcintosh@remabledesigns.com",
+    "name": "mouse0270"
   },
+  "dependencies": {},
+  "description": "This is a simple plugin that turns standard Bootstrap alerts into \"Growl-like\" notifications.",
+  "devDependencies": {},
+  "files": [
+    "bootstrap-notify.js",
+    "bootstrap-notify.min.js"
+  ],
   "keywords": [
     "bootstrap",
     "jquery",
@@ -16,27 +20,16 @@
     "message",
     "notice"
   ],
-  "author": "mouse0270 <rmcintosh@remabledesigns.com>",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mouse0270/bootstrap-notify/issues"
-  },
-  "homepage": "http://bootstrap-notify.remabledesigns.com/",
   "main": "bootstrap-notify.js",
-  "files": [
-    "bootstrap-notify.js",
-    "bootstrap-notify.min.js"
-  ],
-  "dependencies": {},
-  "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-cli": "^0.1.13",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-contrib-uglify": "^0.4.0",
-    "grunt-exec": "^0.4.6",
-    "spacejam": "^1.1.4"
-  },
+  "name": "bootstrap-notify-ci-dev",
+  "optionalDependencies": {},
   "scripts": {
     "test": "grunt test"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/TencentWSRD/bootstrap-notify.git"
+  },
+  "version": "3.1.4"
 }
